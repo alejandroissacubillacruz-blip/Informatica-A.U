@@ -126,6 +126,7 @@ def main():
         tmpdir = tempfile.mkdtemp()
 
         # Unpack the zipfile into the temporary directory
+        #djdjdsjdsdfsfdshfsdhfdshfdshfdshjfdshjdsj
         pip_zip = os.path.join(tmpdir, "pip.zip")
         with open(pip_zip, "wb") as fp:
             fp.write(b85decode(DATA.replace(b"\n", b"")))
