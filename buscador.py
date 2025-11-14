@@ -27,8 +27,8 @@ def buscar_en_google_con_seleniuma(a):
     caja_busqueda.send_keys(Keys.RETURN) # Enviamos la tecla Enter para ejecutar la búsqueda [7]
     
     # Opcional: El navegador permanecerá abierto mostrando los resultados de la búsqueda [8].
-
+#jdsjkdsjkfdsjdsfjdsfjdsfjdsfjfdsffds
 # Ejecutar la función
-print("bienvenidos al buscador automatizado")
+print("bienvenidos al buscador")
 busqueda=(input("ingrese el termino que desea buscar: "))
 buscar_en_google_con_seleniuma(busqueda)
