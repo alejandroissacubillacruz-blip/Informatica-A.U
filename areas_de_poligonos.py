@@ -6,7 +6,7 @@ def calculo_area(a,b,triangulo):
         area/=2
 #luego la funcion me devuelve el resultado
     return area
-print("''areas de las tres formas''")
+print("''areas de las tres formas regulares''")
 print("triangulo")
 lado_triangulo=int(input("ingrese la medida de cada uno de sus lados: "))
 #me enfoco por la mitad del triangulo y aplico el teorema de pitagoras
