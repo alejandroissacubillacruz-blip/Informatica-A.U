@@ -36,7 +36,3 @@ class Calculadora:
                 self.entrada.insert(0, "Error")
         else:
             self.entrada.insert(tk.END, valor)
-if __name__ == "__main__":
-    ventana = tk.Tk()
-    calculadora = Calculadora(ventana)
-    ventana.mainloop()
